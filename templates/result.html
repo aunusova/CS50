@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+ <html>
+
+     <head>
+         <title>My Web Page!</title>
+
+         <script>
+
+            function new_img() {
+                document.querySelector('#PC').hidden = false;
+                document.querySelector('#URL').hidden = false;
+            }
+
+         </script>
+     </head>
+
+     <body>
+         Result
+         <button onclick="new_img()">Загрузить новый снимок</button>
+         <button id="PC" hidden=true>Загрузить с устройства</button>
+         <button id="URL" hidden=true>Загрузить с URL</button>
+     </body>
+
+ </html>
